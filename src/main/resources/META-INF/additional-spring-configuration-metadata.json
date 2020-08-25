@@ -1,0 +1,16 @@
+{
+  "properties": [
+    {
+      "name": "demo.data.name",
+      "description": "Default value is artifactId in pom.xml.",
+      "type": "java.lang.String"
+
+    },
+    {
+      "name": "demo.data.value",
+      "description": "Default value is version in pom.xml.",
+      "type": "java.lang.String"
+
+    }
+  ]
+}
