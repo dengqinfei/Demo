@@ -1,4 +1,4 @@
-package com.hikvision.demo.algorithm;
+package com.deng.demo.algorithm;
 
 public class TwoForkTree {
     static int k = 0;

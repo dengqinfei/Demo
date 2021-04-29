@@ -1,8 +1,8 @@
-package com.hikvision.demo.springSourceCode.condition.conditionalOnMissingBean;
+package com.deng.demo.springSourceCode.condition.conditionalOnMissingBean;
 
-import com.hikvision.demo.springSourceCode.condition.Person;
-import com.hikvision.demo.springSourceCode.condition.Student;
-import com.hikvision.demo.springSourceCode.condition.Teacher;
+import com.deng.demo.springSourceCode.condition.Person;
+import com.deng.demo.springSourceCode.condition.Student;
+import com.deng.demo.springSourceCode.condition.Teacher;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

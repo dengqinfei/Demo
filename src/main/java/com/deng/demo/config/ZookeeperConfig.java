@@ -1,4 +1,4 @@
-package com.hikvision.demo.config;
+package com.deng.demo.config;
 
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;

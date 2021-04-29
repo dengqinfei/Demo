@@ -1,8 +1,7 @@
-package com.hikvision.demo.controller;
+package com.deng.demo.controller;
 
-import com.deng.demosdkconfig.bic.BicCoreService;
-import com.hikvision.demo.model.Config;
-import com.hikvision.demo.model.HelloWorldRequestModel;
+import com.deng.demo.model.Config;
+import com.deng.demo.model.HelloWorldRequestModel;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,8 +21,7 @@ public class HelloWorldController {
     private static final Logger logger = LoggerFactory.getLogger(HelloWorldController.class);
     @Autowired
     private Environment en;
-    @Autowired
-    private BicCoreService bicCoreService;
+
     @PostMapping("/postValue")
     public HelloWorldRequestModel postParam(@RequestBody HelloWorldRequestModel helloWorldRequest){
         List<Config> configs = helloWorldRequest.getConfigs();
@@ -44,7 +42,6 @@ public class HelloWorldController {
         Cookie cookie = new Cookie("key","value");
         cookie.setPath("/demo");
         response.addCookie(cookie);
-        bicCoreService.getNodesListByServiceInfo("cluster","proxy","");
         logger.info("request.getRequestURL()::"+ request.getRequestURL().toString());
         logger.info("request.getRequestURI()::"+request.getRequestURI());
         logger.info("request.getHeader(\"X-Real-IP\")::"+request.getHeader("X-Real-IP"));

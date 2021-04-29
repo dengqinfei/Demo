@@ -1,4 +1,4 @@
-package com.hikvision.demo;
+package com.deng.demo;
 
 import org.springframework.boot.context.TypeExcludeFilter;
 import org.springframework.core.type.classreading.MetadataReader;
@@ -12,7 +12,7 @@ public class MyTypeExcludeFilter extends TypeExcludeFilter {
     public boolean match(MetadataReader metadataReader, MetadataReaderFactory metadataReaderFactory)
             throws IOException {
 
-        if("com.hikvision.demo.template.impl.ProxyHttpConfParseImpl".equals(metadataReader.getClassMetadata().getClassName())){
+        if("com.deng.demo.template.impl.ProxyHttpConfParseImpl".equals(metadataReader.getClassMetadata().getClassName())){
             return true;
         }
 

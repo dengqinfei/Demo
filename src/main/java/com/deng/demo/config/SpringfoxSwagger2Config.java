@@ -1,7 +1,7 @@
-package com.hikvision.demo.config;
+package com.deng.demo.config;
 
+import com.deng.demo.annotate.SwaggerCustomIgnore;
 import com.google.common.base.Predicate;
-import com.hikvision.demo.annotate.SwaggerCustomIgnore;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -19,7 +19,7 @@ import static springfox.documentation.builders.RequestHandlerSelectors.withMetho
 
 @Configuration
 @EnableSwagger2
-@ComponentScan(basePackages = "com.hikvision.demo.controller")
+@ComponentScan(basePackages = "com.deng.demo.controller")
 public class SpringfoxSwagger2Config {
 
     //组织Docket对象，翻译过来就是摘要的意思，它是生成API文档的核心对象，里面配置一些必要的信息

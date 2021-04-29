@@ -1,4 +1,4 @@
-package com.hikvision.demo.dataProperties;
+package com.deng.demo.dataProperties;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

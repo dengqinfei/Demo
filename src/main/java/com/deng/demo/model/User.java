@@ -1,4 +1,4 @@
-package com.hikvision.demo.model;
+package com.deng.demo.model;
 
 import lombok.Data;
 

@@ -1,7 +1,7 @@
-package com.hikvision.demo.controller;
+package com.deng.demo.controller;
 
-import com.hikvision.demo.redis.RedisLock;
-import com.hikvision.demo.util.RedisUtil;
+import com.deng.demo.util.RedisUtil;
+import com.deng.demo.redis.RedisLock;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.GetMapping;

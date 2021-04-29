@@ -1,6 +1,6 @@
-package com.hikvision.demo;
+package com.deng.demo;
 
-import com.hikvision.demo.model.Customer;
+import com.deng.demo.model.Customer;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -41,4 +41,11 @@ public class TestMain {
         System.out.println(map);
 
     }
+
+    @Test
+    public void test3(){
+        String cc = Thread.currentThread().getContextClassLoader().getResource("").getPath();
+        System.out.println(cc);
+    }
+
 }

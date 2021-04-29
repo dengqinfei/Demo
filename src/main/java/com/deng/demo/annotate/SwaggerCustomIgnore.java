@@ -1,4 +1,4 @@
-package com.hikvision.demo.annotate;
+package com.deng.demo.annotate;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

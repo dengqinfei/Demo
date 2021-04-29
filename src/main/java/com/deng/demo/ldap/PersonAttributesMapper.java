@@ -1,4 +1,4 @@
-package com.hikvision.demo.ldap;
+package com.deng.demo.ldap;
 
 import org.springframework.ldap.core.AttributesMapper;
 

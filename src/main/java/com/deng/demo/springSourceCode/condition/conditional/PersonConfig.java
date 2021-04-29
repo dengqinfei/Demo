@@ -1,8 +1,8 @@
-package com.hikvision.demo.springSourceCode.condition.conditional;
+package com.deng.demo.springSourceCode.condition.conditional;
 
-import com.hikvision.demo.springSourceCode.condition.Person;
-import com.hikvision.demo.springSourceCode.condition.Student;
-import com.hikvision.demo.springSourceCode.condition.Teacher;
+import com.deng.demo.springSourceCode.condition.Person;
+import com.deng.demo.springSourceCode.condition.Student;
+import com.deng.demo.springSourceCode.condition.Teacher;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Conditional;
 import org.springframework.context.annotation.Configuration;

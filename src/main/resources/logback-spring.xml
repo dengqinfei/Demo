@@ -41,7 +41,7 @@
 			</rollingPolicy>
 
 		</appender>
-	<logger name="com.hikvision" level="debug"
+	<logger name="com.deng" level="debug"
 			additivity="false">
 		<appender-ref ref="FILE-Debug" />
 		<appender-ref ref="STDOUT" />
@@ -53,7 +53,7 @@
 	</logger>
 
 
-		<root level="debug">
+		<root level="warn">
 			<appender-ref ref="FILE-Debug" />
 			<appender-ref ref="STDOUT" />
 		</root>

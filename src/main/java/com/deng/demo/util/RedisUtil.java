@@ -1,4 +1,4 @@
-package com.hikvision.demo.util;
+package com.deng.demo.util;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;

@@ -1,9 +1,9 @@
-package com.hikvision.demo;
+package com.deng.demo;
 
-import com.hikvision.demo.config.RedisConfig;
-import com.hikvision.demo.config.ZookeeperConfig;
-import com.hikvision.demo.redis.RedisLock;
-import com.hikvision.demo.util.RedisUtil;
+import com.deng.demo.util.RedisUtil;
+import com.deng.demo.config.RedisConfig;
+import com.deng.demo.config.ZookeeperConfig;
+import com.deng.demo.redis.RedisLock;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration;
@@ -12,8 +12,8 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.FilterType;
 
 //@SpringBootApplication
-//@ComponentScan(basePackages = {"com.hikvision.demo.springSourceCode","com.hikvision.demo.ldap","com.hikvision.demo.springLdap"})
-@ComponentScan(basePackages = {"com.hikvision.demo"},excludeFilters = @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, classes = {RedisLock.class, RedisUtil.class, RedisConfig.class, ZookeeperConfig.class}))
+//@ComponentScan(basePackages = {"com.deng.demo.springSourceCode","com.deng.demo.ldap","com.deng.demo.springLdap"})
+@ComponentScan(basePackages = {"com.deng.demo"},excludeFilters = @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, classes = {RedisLock.class, RedisUtil.class, RedisConfig.class, ZookeeperConfig.class}))
 @SpringBootApplication(exclude={
         RedisAutoConfiguration.class,
         RedisRepositoriesAutoConfiguration.class

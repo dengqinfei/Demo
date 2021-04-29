@@ -1,10 +1,9 @@
-package com.hikvision.demo.template.impl;
+package com.deng.demo.template.impl;
 
-import com.hikvision.demo.template.ConfigParse;
+import com.deng.demo.template.ConfigParse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.context.Context;

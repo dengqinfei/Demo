@@ -1,4 +1,4 @@
-package com.hikvision.demo.controller;
+package com.deng.demo.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

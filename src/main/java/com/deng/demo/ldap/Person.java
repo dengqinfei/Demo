@@ -6,7 +6,7 @@
  * @email:       xiazhaoyang@live.com
  * @description: 本内容仅限于编程技术学习使用，转发请注明出处.
  */
-package com.hikvision.demo.ldap;
+package com.deng.demo.ldap;
 
 import lombok.Data;
 import lombok.ToString;

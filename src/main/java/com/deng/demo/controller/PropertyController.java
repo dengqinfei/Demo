@@ -1,7 +1,7 @@
-package com.hikvision.demo.controller;
+package com.deng.demo.controller;
 
 import cn.hutool.core.lang.Dict;
-import com.hikvision.demo.dataProperties.DemoProperty;
+import com.deng.demo.dataProperties.DemoProperty;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

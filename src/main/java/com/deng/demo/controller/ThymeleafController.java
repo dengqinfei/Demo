@@ -1,12 +1,12 @@
-package com.hikvision.demo.controller;
+package com.deng.demo.controller;
 
-import com.hikvision.demo.template.ConfigParse;
+import com.deng.demo.template.ConfigParse;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.apache.commons.io.FileUtils;
+
 import java.util.HashMap;
 import java.util.Map;
 

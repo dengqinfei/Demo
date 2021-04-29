@@ -1,4 +1,4 @@
-package com.hikvision.demo;
+package com.deng.demo;
 
 import com.rabbitmq.client.*;
 

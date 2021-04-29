@@ -1,4 +1,4 @@
-package com.hikvision.demo.controller;
+package com.deng.demo.controller;
 
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.recipes.locks.InterProcessMutex;

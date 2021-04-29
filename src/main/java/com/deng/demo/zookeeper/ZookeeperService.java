@@ -1,4 +1,4 @@
-//package com.hikvision.demo.zookeeper;
+//package com.deng.demo.zookeeper;
 //
 //import org.apache.curator.framework.CuratorFramework;
 //import org.apache.curator.framework.recipes.cache.PathChildrenCache;

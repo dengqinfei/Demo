@@ -1,4 +1,4 @@
-package com.hikvision.demo.template;
+package com.deng.demo.template;
 
 import java.util.Map;
 

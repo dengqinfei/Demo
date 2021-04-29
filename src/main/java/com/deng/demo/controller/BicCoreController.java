@@ -1,4 +1,5 @@
-package com.hikvision.demo.controller;
+/*
+package com.deng.demo.controller;
 
 import com.deng.demosdkconfig.bic.BicCoreService;
 import com.deng.demosdkconfig.bic.dto.NodesList;
@@ -31,3 +32,4 @@ public class BicCoreController {
 
 
 }
+*/

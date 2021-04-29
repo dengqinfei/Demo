@@ -1,6 +1,6 @@
-package com.hikvision.demo;
+package com.deng.demo;
 
-import com.hikvision.demo.template.impl.ProxyHttpConfParseImpl;
+import com.deng.demo.template.impl.ProxyHttpConfParseImpl;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,7 +1,7 @@
-package com.hikvision.demo;
+package com.deng.demo;
 
-import com.hikvision.demo.ldap.IPersonRepo;
-import com.hikvision.demo.ldap.Person;
+import com.deng.demo.ldap.IPersonRepo;
+import com.deng.demo.ldap.Person;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

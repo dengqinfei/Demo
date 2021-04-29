@@ -1,6 +1,6 @@
-package com.hikvision.demo.springSourceCode.condition.conditionOnClass;
+package com.deng.demo.springSourceCode.condition.conditionOnClass;
 
-import com.hikvision.demo.springSourceCode.condition.Person;
+import com.deng.demo.springSourceCode.condition.Person;
 
 //@Service
  class Body implements Person {

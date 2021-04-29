@@ -1,4 +1,4 @@
-package com.hikvision.demo.converter;
+package com.deng.demo.converter;
 
 import org.springframework.http.converter.BufferedImageHttpMessageConverter;
 import org.springframework.http.converter.HttpMessageConverter;

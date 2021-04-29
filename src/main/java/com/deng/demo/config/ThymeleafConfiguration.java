@@ -1,4 +1,4 @@
-package com.hikvision.demo.config;
+package com.deng.demo.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

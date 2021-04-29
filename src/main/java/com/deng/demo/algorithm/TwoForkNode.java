@@ -1,4 +1,4 @@
-package com.hikvision.demo.algorithm;
+package com.deng.demo.algorithm;
 
 public class TwoForkNode {
     private int data;

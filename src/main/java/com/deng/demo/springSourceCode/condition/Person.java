@@ -1,4 +1,4 @@
-package com.hikvision.demo.springSourceCode.condition;
+package com.deng.demo.springSourceCode.condition;
 
 public interface Person {
 
