@@ -2,8 +2,9 @@ package com.deng.demo;
 
 import com.deng.demo.ldap.IPersonRepo;
 import com.deng.demo.ldap.Person;
-import org.junit.Test;
-import org.junit.runner.RunWith;
+
+
+import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.ldap.core.DirContextAdapter;
@@ -14,7 +15,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 import javax.naming.Name;
 import java.util.List;
 
-@RunWith(SpringRunner.class)
 @SpringBootTest
 public class LdapTest {
 

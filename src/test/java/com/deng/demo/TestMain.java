@@ -1,7 +1,7 @@
 package com.deng.demo;
 
 import com.deng.demo.model.Customer;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.Date;

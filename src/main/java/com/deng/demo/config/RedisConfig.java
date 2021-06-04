@@ -1,8 +1,11 @@
 package com.deng.demo.config;
 
+import com.deng.demo.redis.RedisLock;
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnExpression;
 import org.springframework.cache.annotation.CachingConfigurerSupport;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -13,17 +16,29 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 
 /**
  * redis配置类
+ *
  * @program: springbootdemo
  * @Date: 2019/2/22 15:20
  * @Author: zjjlive
  * @Description:
  */
 @Configuration
+@ConditionalOnExpression("${redis.enable:true}")
 //@EnableCaching //开启注解
 public class RedisConfig extends CachingConfigurerSupport {
 
+    @Bean
+    @ConditionalOnClass({StringRedisTemplate.class})
+    public RedisLock redisLock() {
+
+        RedisLock redisLock = new RedisLock();
+        return redisLock;
+    }
+
+
     /**
      * retemplate相关配置
+     *
      * @param factory
      * @return
      */
@@ -52,8 +67,8 @@ public class RedisConfig extends CachingConfigurerSupport {
         // 设置hash key 和value序列化模式
         template.setHashKeySerializer(new StringRedisSerializer());
         template.setHashValueSerializer(jacksonSeial);
+        template.delete("ds");
         template.afterPropertiesSet();
-
         return template;
     }
 

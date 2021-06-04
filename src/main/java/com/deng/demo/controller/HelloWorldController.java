@@ -1,7 +1,11 @@
 package com.deng.demo.controller;
 
+import com.deng.demo.awareAndProcessor.CustomerService;
+import com.deng.demo.awareAndProcessor.UserService;
 import com.deng.demo.model.Config;
+import com.deng.demo.model.Customer;
 import com.deng.demo.model.HelloWorldRequestModel;
+import com.deng.demo.model.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +25,10 @@ public class HelloWorldController {
     private static final Logger logger = LoggerFactory.getLogger(HelloWorldController.class);
     @Autowired
     private Environment en;
+    @Autowired
+    private UserService uService;
+    @Autowired
+    private CustomerService customerService;
 
     @PostMapping("/postValue")
     public HelloWorldRequestModel postParam(@RequestBody HelloWorldRequestModel helloWorldRequest){
@@ -54,6 +62,12 @@ public class HelloWorldController {
       //  logger.info(request.getParameter("bid"));
       //  logger.info(request.getParameter("ptime"));
         System.out.printf("111111111111111111111111122222221");
+        User user = new User();
+        user.setUser(1L);
+        uService.save(user);
+        Customer customer = new Customer();
+        customer.setName("customer");
+        customerService.save(customer);
         return "success";
     }
 

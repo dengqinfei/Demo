@@ -13,11 +13,12 @@ import org.springframework.context.annotation.FilterType;
 
 //@SpringBootApplication
 //@ComponentScan(basePackages = {"com.deng.demo.springSourceCode","com.deng.demo.ldap","com.deng.demo.springLdap"})
-@ComponentScan(basePackages = {"com.deng.demo"},excludeFilters = @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, classes = {RedisLock.class, RedisUtil.class, RedisConfig.class, ZookeeperConfig.class}))
-@SpringBootApplication(exclude={
-        RedisAutoConfiguration.class,
-        RedisRepositoriesAutoConfiguration.class
-})
+//@ComponentScan(basePackages = {"com.deng.demo"},excludeFilters = @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, classes = {RedisLock.class, RedisUtil.class, RedisConfig.class, ZookeeperConfig.class}))
+@SpringBootApplication
+//        (exclude={
+//        RedisAutoConfiguration.class,
+//        RedisRepositoriesAutoConfiguration.class
+//})
 public class DemoApplication  {
 //extends SpringBootServletInitializer
     public static void main(String[] args) {

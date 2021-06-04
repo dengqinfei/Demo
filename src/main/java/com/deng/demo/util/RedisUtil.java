@@ -1,5 +1,6 @@
 package com.deng.demo.util;
 
+import com.google.common.collect.Lists;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Component;
@@ -15,7 +16,7 @@ import java.util.concurrent.TimeUnit;
  *
  *  @author zjjlive@dist.com.cn
  */
-@Component
+
 public class RedisUtil {
 
     @Autowired
@@ -77,7 +78,7 @@ public class RedisUtil {
             if(key.length==1){
                 redisTemplate.delete(key[0]);
             }else{
-                redisTemplate.delete(CollectionUtils.arrayToList(key));
+                redisTemplate.delete(Lists.newArrayList(key));
             }
         }
     }
