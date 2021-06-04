@@ -1,0 +1,340 @@
+2021-06-03 18:03:06 [main] INFO  com.deng.demo.DemoApplication - Starting DemoApplication using Java 11.0.2 on pc-hz20084511 with PID 21496 (D:\project\workspace\github-test\Demo\target\classes started by dengqinfei in D:\project\workspace\github-test\Demo)
+2021-06-03 18:03:06 [main] DEBUG com.deng.demo.DemoApplication - Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-03 18:03:06 [main] INFO  com.deng.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2021-06-03 18:03:07 [main] INFO  com.deng.demo.template.impl.ProxyHttpConfParseImpl - init
+2021-06-03 18:03:07 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisLock': Unsatisfied dependency expressed through field 'redisTemplate'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.core.StringRedisTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-06-03 18:03:07 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field redisTemplate in com.deng.demo.redis.RedisLock required a bean of type 'org.springframework.data.redis.core.StringRedisTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.data.redis.core.StringRedisTemplate' in your configuration.
+
+2021-06-03 18:18:13 [main] INFO  com.deng.demo.DemoApplication - Starting DemoApplication using Java 11.0.2 on pc-hz20084511 with PID 6812 (D:\project\workspace\github-test\Demo\target\classes started by dengqinfei in D:\project\workspace\github-test\Demo)
+2021-06-03 18:18:13 [main] DEBUG com.deng.demo.DemoApplication - Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-03 18:18:13 [main] INFO  com.deng.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2021-06-03 18:18:14 [main] INFO  com.deng.demo.template.impl.ProxyHttpConfParseImpl - init
+2021-06-03 18:18:14 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisLock': Unsatisfied dependency expressed through field 'redisTemplate'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.core.StringRedisTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-06-03 18:18:15 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field redisTemplate in com.deng.demo.redis.RedisLock required a bean of type 'org.springframework.data.redis.core.StringRedisTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.data.redis.core.StringRedisTemplate' in your configuration.
+
+2021-06-03 18:22:36 [main] INFO  com.deng.demo.DemoApplication - Starting DemoApplication using Java 11.0.2 on pc-hz20084511 with PID 22168 (D:\project\workspace\github-test\Demo\target\classes started by dengqinfei in D:\project\workspace\github-test\Demo)
+2021-06-03 18:22:36 [main] DEBUG com.deng.demo.DemoApplication - Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-03 18:22:36 [main] INFO  com.deng.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2021-06-03 18:22:37 [main] INFO  com.deng.demo.template.impl.ProxyHttpConfParseImpl - init
+2021-06-03 18:22:37 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisLock': Unsatisfied dependency expressed through field 'redisTemplate'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.core.StringRedisTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-06-03 18:22:37 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field redisTemplate in com.deng.demo.redis.RedisLock required a bean of type 'org.springframework.data.redis.core.StringRedisTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.data.redis.core.StringRedisTemplate' in your configuration.
+
+2021-06-03 18:27:05 [main] INFO  com.deng.demo.DemoApplication - Starting DemoApplication using Java 11.0.2 on pc-hz20084511 with PID 18952 (D:\project\workspace\github-test\Demo\target\classes started by dengqinfei in D:\project\workspace\github-test\Demo)
+2021-06-03 18:27:05 [main] DEBUG com.deng.demo.DemoApplication - Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-03 18:27:05 [main] INFO  com.deng.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2021-06-03 18:27:07 [main] INFO  com.deng.demo.template.impl.ProxyHttpConfParseImpl - init
+2021-06-03 18:27:07 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisLock': Unsatisfied dependency expressed through field 'redisTemplate'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.core.StringRedisTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-06-03 18:27:07 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field redisTemplate in com.deng.demo.redis.RedisLock required a bean of type 'org.springframework.data.redis.core.StringRedisTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.data.redis.core.StringRedisTemplate' in your configuration.
+
+2021-06-03 18:29:31 [main] INFO  com.deng.demo.DemoApplication - Starting DemoApplication using Java 11.0.2 on pc-hz20084511 with PID 22100 (D:\project\workspace\github-test\Demo\target\classes started by dengqinfei in D:\project\workspace\github-test\Demo)
+2021-06-03 18:29:31 [main] DEBUG com.deng.demo.DemoApplication - Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-03 18:29:31 [main] INFO  com.deng.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2021-06-03 18:29:32 [main] INFO  com.deng.demo.template.impl.ProxyHttpConfParseImpl - init
+2021-06-03 18:29:32 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisUtil' defined in file [D:\project\workspace\github-test\Demo\target\classes\com\deng\demo\util\RedisUtil.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [com/deng/demo/config/RedisConfig.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2021-06-03 18:29:32 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method redisTemplate in com.deng.demo.config.RedisConfig required a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' in your configuration.
+
+2021-06-03 18:31:37 [main] INFO  com.deng.demo.DemoApplication - Starting DemoApplication using Java 11.0.2 on pc-hz20084511 with PID 13384 (D:\project\workspace\github-test\Demo\target\classes started by dengqinfei in D:\project\workspace\github-test\Demo)
+2021-06-03 18:31:37 [main] DEBUG com.deng.demo.DemoApplication - Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-03 18:31:37 [main] INFO  com.deng.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2021-06-03 18:31:39 [main] INFO  com.deng.demo.template.impl.ProxyHttpConfParseImpl - init
+2021-06-03 18:31:54 [main] INFO  com.deng.demo.DemoApplication - Started DemoApplication in 17.666 seconds (JVM running for 18.513)
+2021-06-03 18:32:13 [main-SendThread(10.19.128.135:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2021-06-03 18:32:35 [main-SendThread(10.19.128.135:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2021-06-03 18:32:57 [main-SendThread(10.19.128.135:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2021-06-03 18:33:19 [main-SendThread(10.19.128.135:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2021-06-03 18:33:41 [main-SendThread(10.19.128.135:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2021-06-03 18:34:03 [main-SendThread(10.19.128.135:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2021-06-03 18:34:25 [main-SendThread(10.19.128.135:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2021-06-03 18:34:47 [main-SendThread(10.19.128.135:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2021-06-03 18:35:16 [main] INFO  com.deng.demo.DemoApplication - Starting DemoApplication using Java 11.0.2 on pc-hz20084511 with PID 21404 (D:\project\workspace\github-test\Demo\target\classes started by dengqinfei in D:\project\workspace\github-test\Demo)
+2021-06-03 18:35:16 [main] DEBUG com.deng.demo.DemoApplication - Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-03 18:35:16 [main] INFO  com.deng.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2021-06-03 18:35:17 [main] INFO  com.deng.demo.template.impl.ProxyHttpConfParseImpl - init
+2021-06-03 18:35:19 [main] INFO  com.deng.demo.DemoApplication - Started DemoApplication in 3.991 seconds (JVM running for 4.792)
+2021-06-03 18:56:38 [main] INFO  com.deng.demo.DemoApplication - Starting DemoApplication using Java 11.0.2 on pc-hz20084511 with PID 22284 (D:\project\workspace\github-test\Demo\target\classes started by dengqinfei in D:\project\workspace\github-test\Demo)
+2021-06-03 18:56:38 [main] DEBUG com.deng.demo.DemoApplication - Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-03 18:56:38 [main] INFO  com.deng.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2021-06-03 18:56:40 [main] INFO  com.deng.demo.template.impl.ProxyHttpConfParseImpl - init
+2021-06-03 18:56:42 [main] INFO  com.deng.demo.DemoApplication - Started DemoApplication in 3.948 seconds (JVM running for 4.661)
+2021-06-03 18:58:04 [main] INFO  com.deng.demo.DemoApplication - Starting DemoApplication using Java 11.0.2 on pc-hz20084511 with PID 22476 (D:\project\workspace\github-test\Demo\target\classes started by dengqinfei in D:\project\workspace\github-test\Demo)
+2021-06-03 18:58:04 [main] DEBUG com.deng.demo.DemoApplication - Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-03 18:58:04 [main] INFO  com.deng.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2021-06-03 18:58:05 [main] INFO  com.deng.demo.template.impl.ProxyHttpConfParseImpl - init
+2021-06-03 18:58:07 [main] INFO  com.deng.demo.DemoApplication - Started DemoApplication in 3.927 seconds (JVM running for 4.765)
+2021-06-03 18:59:34 [main] INFO  com.deng.demo.DemoApplication - Starting DemoApplication using Java 11.0.2 on pc-hz20084511 with PID 20960 (D:\project\workspace\github-test\Demo\target\classes started by dengqinfei in D:\project\workspace\github-test\Demo)
+2021-06-03 18:59:34 [main] DEBUG com.deng.demo.DemoApplication - Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-03 18:59:34 [main] INFO  com.deng.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2021-06-03 18:59:35 [main] INFO  com.deng.demo.template.impl.ProxyHttpConfParseImpl - init
+2021-06-03 18:59:38 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisUtil' defined in file [D:\project\workspace\github-test\Demo\target\classes\com\deng\demo\util\RedisUtil.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisTemplate' defined in class path resource [com/deng/demo/config/RedisConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.redis.core.RedisTemplate]: Factory method 'redisTemplate' threw exception; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:7019
+2021-06-03 18:59:38 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisUtil' defined in file [D:\project\workspace\github-test\Demo\target\classes\com\deng\demo\util\RedisUtil.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisTemplate' defined in class path resource [com/deng/demo/config/RedisConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.redis.core.RedisTemplate]: Factory method 'redisTemplate' threw exception; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:7019
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1354)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at com.deng.demo.DemoApplication.main(DemoApplication.java:25)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisTemplate' defined in class path resource [com/deng/demo/config/RedisConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.redis.core.RedisTemplate]: Factory method 'redisTemplate' threw exception; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:7019
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.redis.core.RedisTemplate]: Factory method 'redisTemplate' threw exception; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:7019
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 33 common frames omitted
+Caused by: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:7019
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1621)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1529)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1315)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1298)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedConnection(LettuceConnectionFactory.java:1039)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getConnection(LettuceConnectionFactory.java:371)
+	at org.springframework.data.redis.core.RedisConnectionUtils.fetchConnection(RedisConnectionUtils.java:193)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:144)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:105)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:209)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:189)
+	at org.springframework.data.redis.core.RedisTemplate.delete(RedisTemplate.java:708)
+	at com.deng.demo.config.RedisConfig.redisTemplate(RedisConfig.java:69)
+	at com.deng.demo.config.RedisConfig$$EnhancerBySpringCGLIB$$1c672be2.CGLIB$redisTemplate$6(<generated>)
+	at com.deng.demo.config.RedisConfig$$EnhancerBySpringCGLIB$$1c672be2$$FastClassBySpringCGLIB$$6a1251b4.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.deng.demo.config.RedisConfig$$EnhancerBySpringCGLIB$$1c672be2.redisTemplate(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 34 common frames omitted
+Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to localhost:7019
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:78)
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56)
+	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:330)
+	at io.lettuce.core.RedisClient.connect(RedisClient.java:216)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.lambda$getConnection$1(StandaloneConnectionProvider.java:115)
+	at java.base/java.util.Optional.orElseGet(Optional.java:369)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:115)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1527)
+	... 55 common frames omitted
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:7019
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-06-03 19:01:26 [main] INFO  com.deng.demo.DemoApplication - Starting DemoApplication using Java 11.0.2 on pc-hz20084511 with PID 21268 (D:\project\workspace\github-test\Demo\target\classes started by dengqinfei in D:\project\workspace\github-test\Demo)
+2021-06-03 19:01:26 [main] DEBUG com.deng.demo.DemoApplication - Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-03 19:01:26 [main] INFO  com.deng.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2021-06-03 19:01:28 [main] INFO  com.deng.demo.template.impl.ProxyHttpConfParseImpl - init
+2021-06-03 19:01:30 [main] INFO  com.deng.demo.DemoApplication - Started DemoApplication in 4.462 seconds (JVM running for 5.639)
+2021-06-03 19:02:08 [http-nio-8099-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /demo/
+2021-06-03 19:03:03 [main] INFO  com.deng.demo.DemoApplication - Starting DemoApplication using Java 11.0.2 on pc-hz20084511 with PID 20504 (D:\project\workspace\github-test\Demo\target\classes started by dengqinfei in D:\project\workspace\github-test\Demo)
+2021-06-03 19:03:03 [main] DEBUG com.deng.demo.DemoApplication - Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-03 19:03:03 [main] INFO  com.deng.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2021-06-03 19:03:04 [main] INFO  com.deng.demo.template.impl.ProxyHttpConfParseImpl - init
+2021-06-03 19:03:04 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisUtil' defined in file [D:\project\workspace\github-test\Demo\target\classes\com\deng\demo\util\RedisUtil.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.core.RedisTemplate<java.lang.String, java.lang.Object>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2021-06-03 19:03:04 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.deng.demo.util.RedisUtil required a bean of type 'org.springframework.data.redis.core.RedisTemplate' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.data.redis.core.RedisTemplate' in your configuration.
+
+2021-06-03 19:04:05 [main] INFO  com.deng.demo.DemoApplication - Starting DemoApplication using Java 11.0.2 on pc-hz20084511 with PID 20452 (D:\project\workspace\github-test\Demo\target\classes started by dengqinfei in D:\project\workspace\github-test\Demo)
+2021-06-03 19:04:05 [main] DEBUG com.deng.demo.DemoApplication - Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-03 19:04:05 [main] INFO  com.deng.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2021-06-03 19:04:07 [main] INFO  com.deng.demo.template.impl.ProxyHttpConfParseImpl - init
+2021-06-03 19:04:07 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisUtil' defined in file [D:\project\workspace\github-test\Demo\target\classes\com\deng\demo\util\RedisUtil.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.core.RedisTemplate<java.lang.String, java.lang.Object>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2021-06-03 19:04:07 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.deng.demo.util.RedisUtil required a bean of type 'org.springframework.data.redis.core.RedisTemplate' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.data.redis.core.RedisTemplate' in your configuration.
+
+2021-06-03 19:05:46 [main] INFO  com.deng.demo.DemoApplication - Starting DemoApplication using Java 11.0.2 on pc-hz20084511 with PID 19772 (D:\project\workspace\github-test\Demo\target\classes started by dengqinfei in D:\project\workspace\github-test\Demo)
+2021-06-03 19:05:46 [main] DEBUG com.deng.demo.DemoApplication - Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-03 19:05:46 [main] INFO  com.deng.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2021-06-03 19:05:48 [main] INFO  com.deng.demo.template.impl.ProxyHttpConfParseImpl - init
+2021-06-03 19:05:50 [main] INFO  com.deng.demo.DemoApplication - Started DemoApplication in 3.993 seconds (JVM running for 4.752)
+2021-06-03 20:26:58 [main] INFO  com.deng.demo.DemoApplication - Starting DemoApplication using Java 11.0.2 on pc-hz20084511 with PID 23180 (D:\project\workspace\github-test\Demo\target\classes started by dengqinfei in D:\project\workspace\github-test\Demo)
+2021-06-03 20:26:58 [main] DEBUG com.deng.demo.DemoApplication - Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-03 20:26:58 [main] INFO  com.deng.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2021-06-03 20:27:00 [main] INFO  com.deng.demo.template.impl.ProxyHttpConfParseImpl - init
+2021-06-03 20:27:03 [main] INFO  com.deng.demo.DemoApplication - Started DemoApplication in 5.653 seconds (JVM running for 6.461)
+2021-06-03 20:27:51 [http-nio-8099-exec-1] INFO  com.deng.demo.controller.HelloWorldController - request.getRequestURL()::http://127.0.0.1:8099/demo/hello
+2021-06-03 20:27:51 [http-nio-8099-exec-1] INFO  com.deng.demo.controller.HelloWorldController - request.getRequestURI()::/demo/hello
+2021-06-03 20:27:51 [http-nio-8099-exec-1] INFO  com.deng.demo.controller.HelloWorldController - request.getHeader("X-Real-IP")::null
+2021-06-03 20:27:51 [http-nio-8099-exec-1] INFO  com.deng.demo.controller.HelloWorldController - request.getHeader("Host")::127.0.0.1:8099
+2021-06-03 20:27:51 [http-nio-8099-exec-1] INFO  com.deng.demo.controller.HelloWorldController - request.getHeader("X-Forwarded-For")::null
+2021-06-03 20:27:51 [http-nio-8099-exec-1] INFO  com.deng.demo.controller.HelloWorldController - request.getHeader("X-Forwarded-Proto")::null
+2021-06-03 20:27:51 [http-nio-8099-exec-1] INFO  com.deng.demo.controller.HelloWorldController - null

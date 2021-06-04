@@ -38,11 +38,11 @@ public class DemoApplication  {
 
    //    cASLogoutFilter.addMappingForUrlPatterns(null, false, "/*");
 
-   //    FilterRegistration.Dynamic cASAuthenticationFilter = sc.addFilter("CAS Authentication Filter", HikAuthenticationFilter.class);
+   //    FilterRegistration.Dynamic cASAuthenticationFilter = sc.addFilter("CAS Authentication Filter", AuthenticationFilter.class);
 
    //    cASAuthenticationFilter.addMappingForUrlPatterns(null, false, "/*");
 
-   //    FilterRegistration.Dynamic cas20Registration = sc.addFilter("CAS Validation Filter", HikCas20ProxyReceivingTicketValidationFilter.class);
+   //    FilterRegistration.Dynamic cas20Registration = sc.addFilter("CAS Validation Filter", Cas20ProxyReceivingTicketValidationFilter.class);
 
    //    cas20Registration.setInitParameter("encoding", "UTF-8");
 
